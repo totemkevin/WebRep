@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.0.0.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+		<title>
+		</title>
+		<link rel="stylesheet" type="text/css" href="jq.css">
+	</head>
+
+	<body>
+	<button type="button" id="1"  onclick="">text</button>
+	<button type="button" id="2"  onclick="">text</button>
+	<button type="button" id="b3"  onclick="">text</button>
+	<div class="dv3">123</div>
+	<div class="dv4">123456</div>
+	</body>
+	<script>
+		$(document).ready(function(){
+  			$("#1").click(function(){
+  				$(".dv3").fadeOut(2000,
+  					function()
+  					{
+  						alert("123123");
+  					}
+  				);
+  			});
+		});
+		$(document).ready(function(){
+  			$("#2").click(function(){
+  				$(".dv3").fadeIn();
+  			});
+		});
+		$(document).ready(function(){
+			$(".dv4").hide();
+			$(".dv3").hover(
+				function(){
+					$(".dv4").show();
+				},
+				function(){
+					$(".dv4").hide();
+				}
+			);
+			$(".dv4").hover(
+				function(){
+					$(".dv4").show();
+				},
+				function(){
+					$(".dv4").hide();
+				}
+			);
+		});
+		$(document).ready(function(){
+			
+		});
+	</script>
+</html> 

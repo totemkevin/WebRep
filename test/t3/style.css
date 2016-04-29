@@ -1,0 +1,20 @@
+body{
+	margin: 0px;
+}
+#headerTopicContainer{
+	height: 200px;
+	width: 100%;
+	background: #72f5d5;
+}
+#headerContainer{
+	height: 40px;
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	box-shadow: 0px 3px 5px #999;
+}
+#container{
+	height: 800px;
+	width:100%;
+}

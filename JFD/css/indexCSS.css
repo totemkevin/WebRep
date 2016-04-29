@@ -1,0 +1,24 @@
+#back
+{
+	height: auto;
+	width:980px;
+	margin: 0px auto;
+}
+#btn1
+{
+	height: auto;
+	width:300px;
+	margin: 0px auto;
+}
+#loginField
+{
+	height: 200px;
+	width:300px;
+	margin: 0px auto;
+	padding-top: 40px;
+	text-align: center;
+/*	;
+	font-size: 25px;
+	
+	color: blue;*/
+}

@@ -1,0 +1,42 @@
+.total
+{
+	width: 980px;
+	height: 600px;
+	margin: 0px auto;
+}
+.top
+{
+    width: 980px;
+    height: 100px;
+    background: #FF0000;
+}
+.Rl
+{
+    width: 200px;
+    height: 500px;
+    background: #FFF000;
+    float: left;
+} 
+.rL
+{
+    width: 780px;
+    height: 500px;
+ 	background: #00FF00;
+ 	float: left;
+}
+.Rl_item
+{
+	width: 150px;
+    height: 30px;
+ 	background: #FF00FF;
+ 	float: left;
+ 	margin-top: 10px;
+}
+.bottom
+{
+	color: #FFFFFF;
+	width: 980px;
+    height: 100px;
+    background: #000000;
+    float: left;
+}

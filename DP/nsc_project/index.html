@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="stylesheet/style.css">
+	<script src="javascript/jquery.js"></script>
+	<title>分析模式導入工具</title>
+</head>
+<body>
+	<div class="mask"></div>
+	<div class="container">
+		<header>分析模式導入工具</header>
+		<div class="tool_bar">
+			<input type="text" placeholder="請輸入使用案例名稱、關鍵字" value="">
+			<input type="button" id="search" value="search">
+			<input type="button" id="new" value="+ new UseCase">
+		</div>
+		<div id="zoomIn">
+			<input type="file" id="files" name="file" accept=".xmi"/>
+			<div id="progress_bar"><div class="percent">0%</div></div>
+			<input type="button" id="close" value="close">
+		</div>
+		<div class="results">
+			<div class="list_item">
+				<span class="uc_id">usecase_A</span>
+				<span class="description">a_description</span>
+			</div>
+			<div class="list_item">
+				<span class="uc_id">usecase_B</span>
+				<span class="description">b_description</span>
+			</div>
+		</div>
+		<footer>版權資訊</footer>
+	</div>
+	<script src="javascript/active.js"></script>
+	<script src="javascript/upload.js"></script>
+	<script src="javascript/analysis.js"></script>
+</body>
+</html>

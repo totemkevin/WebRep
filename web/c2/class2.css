@@ -1,0 +1,46 @@
+.divbord
+{
+
+	color: #FF0000;
+    border-top:20px solid blue;
+    border-left: dotted 20px yellow;
+    width: 200px;
+    height: 400px;
+    text-align:center;
+    background: black;
+    border-bottom:double 15px green;
+}
+.div2
+{
+	position: absolute;
+	top:10px;
+	left: 410px;
+	width: 400px;
+    height: 400px;
+	background: #FF00FF;
+	z-index: 1;
+}
+.div3
+{
+	position: absolute;
+	top:30px;
+	left: 430px;
+	width: 400px;
+    height: 400px;
+	background: #00FFFF;
+	z-index: 2
+}
+.d1
+{
+	width: 20px;
+    height: 20px;
+    margin: 5px;
+    border: solid 1px;
+    float: left;
+
+}
+.d2
+{
+	width: 96px;
+    height: 90px;
+}

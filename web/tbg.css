@@ -1,0 +1,12 @@
+.bg
+{
+	background-color: blue;
+	border-radius: 25px;
+	box-shadow: 10px 10px 15px #888888;
+}
+.box 
+{
+	border:solid 2px;
+	width: 100px;
+	height: 30px;
+}

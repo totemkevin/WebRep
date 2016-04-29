@@ -1,0 +1,17 @@
+.base 
+{
+	height: 50px;
+	width: 50px;
+	border: 2.5px solid #222222;
+	background-color: black;
+	float: left;
+}
+.base:hover
+{
+	background-color: white;
+}
+.outer 
+{
+	height: 900px;
+	width: 560px;
+}

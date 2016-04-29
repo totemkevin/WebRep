@@ -1,0 +1,109 @@
+#nav{
+	width: 190px;
+}
+#nav li{
+	list-style: none;
+}
+#nav ul{
+	padding: 0px;
+}
+div .main{
+	height: 60px;
+	line-height: 60px;
+	text-indent: 25px;
+	background-color:#3fc6f3;
+	border-right:10px solid #0d9be5;
+	cursor: pointer;
+	 
+}
+ul .sub li a{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 25px;
+	background-color: #f5f5f5;
+	border-right:10px solid #0d9be5;
+	font-size:12px;
+	color:#164158; 
+}
+
+li.blue div.main
+{
+	background: #3fc6f3;
+	border-right:10px solid #0d9be5;
+}
+li.red div.main{
+	background-color: #ff625f;
+	border-right:10px solid #fd2621;
+	
+}
+li.yellow div.main{
+	background-color: #febd01;
+	border-right:10px solid #ff8d00;
+	
+}
+li.green div.main{
+	background-color: #46d7c6;
+	border-right:10px solid #15b59b;
+	
+}
+
+
+li.blue ul.sub li a{
+	color: #3fc6f3;
+	border-right:10px solid #0d9be5;
+}
+li.red ul.sub li a{
+	color: #ff625f;
+	border-right:10px solid #fd2621;
+}
+li.yellow ul.sub li a{
+	color: #febd01;
+	border-right:10px solid #ff8d00;
+}
+li.green ul.sub li a{
+	color: #46d7c6;
+	border-right:10px solid #15b59b;
+}
+
+
+li.blue ul.sub li a:hover
+{
+	background-color: #a4e3f9;
+	color: white;
+}
+li.red ul.sub li a:hover{
+	background-color: #ffbbb9;
+	color: white;
+	
+}
+li.yellow ul.sub li a:hover{
+	background-color: #f4e317;
+	color: white;
+	
+}
+li.green ul.sub li a:hover{
+	background-color: #a3ebe2;
+	color: white;
+	
+}
+
+li.blue div.open{
+	background: url("arrow.png") no-repeat #3fc6f3 28px bottom;
+	border-right:10px solid #0d9be5;
+}
+li.red div.open{
+	background: url("arrow.png") no-repeat #ff625f 28px bottom;
+	border-right:10px solid #fd2621;
+	
+}
+li.yellow div.open{
+	background: url("arrow.png") no-repeat #febd01 28px bottom;
+	border-right:10px solid #ff8d00;
+	
+}
+li.green div.open{
+	background: url("arrow.png") no-repeat #46d7c6 28px bottom;
+	border-right:10px solid #15b59b;
+	
+}

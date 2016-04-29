@@ -1,0 +1,33 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="tbg.css">
+</head>
+<body>
+	<div id="1" class="box">1</div>
+	<div id="2" class="box">2</div>
+	<div id="3" class="box">3</div>
+	<button id="1" type="buttom" name="b" onclick="oc(1)">1</button>
+	<button id="2" type="buttom" name="b" onclick="oc(2)">2</button>
+	<button id="3" type="buttom" name="b" onclick="oc(3)">3</button>
+	<button id="3" type="buttom" name="b" onclick="oc(3)"><div class="bg"><img src="phone.png"></div></button>
+	<div class="bg">div</div>
+	<div class="bg">
+		<img src="phone.png">
+	</div>
+</body>
+<script>
+	var x = document.getElementsByClassName("bg");
+	document.getElementById('div1').innerHTML="Good";
+	for(i=0;i<x.length;i++)
+	{
+		x[i].style.backgroundColor = "red";
+	}
+	x[0].style.opacity = 0.5;
+function oc(i)
+{
+	document.getElementById(i).style.backgroundColor="black";
+}	
+</script>
+	
+</html>

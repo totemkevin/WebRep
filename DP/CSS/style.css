@@ -1,0 +1,204 @@
+body
+{
+	height: auto;
+	width: 980px;
+	margin: 5px auto;
+	font-family: "微軟正黑體","新細明體";
+}
+#header
+{
+	height: 130px;
+	width: 980px;
+	border: solid 6px #666666;
+	margin-bottom: 10px; 
+	padding: 0;
+	
+	border-radius: 25px;
+	background: #AAAAAA;
+	text-align:center;/*文字置中*/
+	line-height: 130px;/*垂直置中 行高==div高度*/
+	font-size: 40px;
+	
+	box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+}
+#content
+{
+	height: 530px;
+	width: 980px;
+	margin-left: 6px;
+	padding: 0;
+	border-radius: 10px;
+	box-shadow:4px 4px 12px 4px rgba(20%,20%,40%,0.5);
+}
+#Lbar
+{
+	height: 504px;
+	width: 196px;
+	float: left;
+	padding: 0;
+	
+	margin: 10px;
+	background: #DDDDDD;
+	border-radius: 10px;
+	border: solid 3px #AAAAAA;
+}
+#window
+{
+	height: 494px;
+	width: 732px;
+	float: left;
+	margin-top: 10px; 
+	padding: 5px;
+	border-radius: 10px;
+	border: solid 3px #AAAAAA;
+}
+.tab
+{
+	height: 50px;
+	width: 180px;
+	padding: 0;
+	margin: 5px;
+	background: #AAAAAA;
+	border-radius: 10px;
+	border: solid 3px #666666;
+	
+	text-align:center;/*文字置中*/
+	line-height: 50px;/*垂直置中 行高==div高度*/
+	font-size: 25px;
+}
+
+.item
+{
+	height: 40px;
+	width: 150px;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	
+	background: #FFFFFF;
+	border-radius: 10px;
+	border: solid 3px #666666;
+	
+	text-align:center;/*文字置中*/
+	line-height: 40px;/*垂直置中 行高==div高度*/
+	font-size: 15px;
+}
+.item:hover
+{
+	box-shadow:1px 1px 4px 2px rgba(20%,20%,40%,0.5) inset;
+	cursor: pointer;
+}
+.result
+{
+	height: auto;
+	width: 692px;
+	margin: 5px;
+	background: #FFFFFF;
+	border-radius: 10px;
+	padding: 10px;
+}
+.result:hover
+{
+	background: #CCCCCC;
+}
+.searchresult
+{
+	height: 400px;
+	width: auto;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+
+
+
+
+
+
+
+.results
+{
+	height: auto;
+	width: 722px;
+	
+}
+
+/* line 14, ../sass/style.sass */
+.container {
+  margin: 0 auto;
+  width: 722px;
+  height: auto;
+  text-align: center;
+}
+
+/* line 21, ../sass/style.sass */
+.tool_bar {
+  height: 100px;
+}
+
+/* line 24, ../sass/style.sass */
+.list_item {
+  width: 697px;
+  border-bottom: 1px solid #ccc;
+  display: inline-block;
+  padding: 15px 10px;
+  text-align: left;
+}
+/* line 30, ../sass/style.sass */
+.list_item:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+/* line 33, ../sass/style.sass */
+.list_item .uc_id {
+  margin: 0 10px;
+  font-weight: bold;
+  width: 25%;
+}
+/* line 37, ../sass/style.sass */
+.list_item .description {
+  margin: 0 10px;
+  width: 75%;
+}
+
+/* zoomin */
+/* line 42, ../sass/style.sass */
+.mask {
+  z-index: 9;
+  position: fixed;
+  display: none;
+  height: 484px;
+	width: 722px;
+	border-radius: 10px;
+  background: #000;
+  opacity: 0.8;
+}
+
+/* line 51, ../sass/style.sass */
+#zoomIn {
+  z-index: 99;
+  position: absolute;
+  display: none;
+  margin-top: 50px;
+  margin-left: 60px;
+  width: 600px;
+  height: auto;
+  background: #fff;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+   text-align: center;
+}
+/* line 61, ../sass/style.sass */
+#zoomIn #uc_title {
+  width: 100%;
+  height: 25px;
+  font-size: 25px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+/* line 68, ../sass/style.sass */
+#zoomIn #uc_description {
+  width: 100%;
+}

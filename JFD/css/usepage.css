@@ -1,0 +1,77 @@
+body
+{
+	margin: 0px;
+}
+#content
+{
+	width: 980px;
+	height: 700px;
+	margin: 0px auto;
+	font-family: "微軟正黑體","新細明體";
+	background: #EEEEEE;
+}
+#head
+{
+	height: 150px;
+	width: 980px;
+	background: blue;
+	
+	padding: 0;
+}
+#navbar
+{
+	height: 50px;
+	width: 950px;
+	background: black;
+	margin: 0px auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 4px;
+}
+.navitem
+{
+	height: 50px;
+	width: auto;
+	text-align:center;
+	line-height: 50px;
+	font-size: 20px;
+	color: #AAAAAA;
+	margin: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.navitem:hover 
+{
+	background: #444444;
+	color: #FFFFFF;
+	cursor: pointer;
+	
+}
+.navitem:active
+{
+	background: #444444;
+	color: #FFFFFF;
+}
+.field
+{
+	height: 460px;
+	width: 450px;
+	margin: 15px;
+	padding: 5px;
+	border-radius: 10px;
+	background: #FFFFFF;
+	float: left;	
+}
+.longfield
+{
+	height: 460px;
+	width: 940px;
+	margin: 15px;
+	padding: 5px;
+	border-radius: 10px;
+	background: #FFFFFF;
+	
+}

@@ -1,0 +1,91 @@
+﻿#subwindow
+{
+	height: 484px;
+	width: 722px;
+	background-color: #EEEEEE;
+	border-radius: 10px;
+	padding: 5px;
+	float:left;
+}
+#search
+{
+	height: 80px;
+	width: auto;
+	border-bottom: solid 4px #AAAAAA;
+	font-size: 20px;
+	line-height: 70px;/*垂直置中 行高==div高度*/
+	padding-top: 2px;
+}
+.sform
+{
+	padding-left: 50px;
+	
+}
+#inputtext
+{
+	height: 30px;
+	width: 400px;
+	border: solid 2px #888888;
+	text-align: right;
+	padding-right: 10px;
+	margin-left: 5px;
+}
+#sub
+{
+	height: 30px;
+	width: 100px;
+	border: solid 2px #888888;
+	background: #EEEEEE;
+	margin-left: 10px;
+}
+#sub:hover
+{
+	border: solid 2px #666666;
+	background: #AAAAAA;
+}
+#output
+{
+	height: 385px;
+	width: 722px;
+	margin-top:10px;
+	background:#EEEEEE; 
+	border-radius: 10px;
+}
+#showL
+{
+	background: white;
+	height: 474px;
+	width: 345px;
+	float: left;
+	margin: 0px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-radius: 10px;
+}
+#showR
+{
+	background: white;
+	height: 474px;
+	width: 345px;
+	float: left;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-radius: 10px;
+}
+.text
+{
+	height: 85px;
+	width: 320px;
+}
+/*height: 130px;
+	width: 980px;
+	border: solid 6px #666666;
+	margin-bottom: 10px; 
+	padding: 0;
+	
+	border-radius: 25px;
+	background: #AAAAAA;*/
+	/*text-align:center;文字置中*/
+	/*line-height: 130px;垂直置中 行高==div高度*/
+	/*font-size: 40px;*/
