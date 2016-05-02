@@ -1,0 +1,1 @@
+$(function(){	$("ul.sub").hide();	$("div.main").click(function(){		$("ul.sub").slideUp();		$("div.main").removeClass("open");		if($("+ul",this).css("display")=="none")		{			$("+ul",this).slideDown();			$(this).addClass("open");		}	});});
